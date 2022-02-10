@@ -1,0 +1,150 @@
+@import url('https://fonts.googleeapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: linear-gradient(#00acfcbe 30%, #00acfcbe 100%);
+}
+.contactUs
+{
+    position: relative;
+    width: 100%;
+    padding: 4px 100px;
+}
+.contactUs .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+.contactUs .title h2
+{
+    color:#ffff;
+    font-size: 500;
+}
+.form
+{
+    grid-area: form;
+}
+.logo
+{
+    grid-area: logo;
+}
+
+.contact
+{
+    padding: 40px;
+    background: #ffff;
+}
+.box
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 5fr 5fr;
+    grid-template-areas: 
+    "logo form";
+    grid-gap: 20px;
+}
+.contact h1
+{
+    text-align: left;
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-top: 1px;
+}
+.formBox
+{
+    position: relative;
+    width: 100%;
+    font-size: 1.5em;
+}
+.formBox .row50
+{
+    display: flex;
+    gap: 20px;
+}
+.inputBox
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+    width: 50%;
+}
+.box2
+{
+    padding: 10px;
+    background: #ffffff;
+    color-adjust: #ffffff;
+    text-align: center;
+}
+.title10
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.formBox .row100 .inputBox
+{
+    width: 100%;
+}
+.inputBox span
+{
+    color: #18b7ff;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.inputBox input
+{
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #333;
+}
+.box2 .logo
+{
+    display: block;
+    margin-left: 13%;
+    margin-right: 50%;
+    margin-top: 4%;
+    width: 50%;
+}
+.title11
+{
+    color: #000000;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 10;
+}
+.inputBox textarea
+{
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 50px;
+    margin-bottom: 1px;
+}
+.inputBox input[type="submit"]
+{
+    background: #18b7ff;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 700px;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 14px 14px;
+
+}
